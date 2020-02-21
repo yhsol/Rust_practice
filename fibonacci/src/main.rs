@@ -8,11 +8,11 @@ fn main() {
 // }
 
 fn fibo(n: u32) -> u32 {
-    if n <= 1 {
-        return n;
-    } else {
-        fibo(n - 1) + fibo(n - 2)
-    }
+    // if n <= 1 {
+    //     return n;
+    // } else {
+    //     fibo(n - 1) + fibo(n - 2)
+    // }
 
     // if n == 0 {
     //     return 0;
@@ -22,9 +22,9 @@ fn fibo(n: u32) -> u32 {
 
     // fibo(n - 1) + fibo(n - 2)
 
-    // match n {
-    //     0 => 0,
-    //     1 => 1,
-    //     _ => fibo(n - 2) + fibo(n - 1),
-    // }
+    match n {
+        0 => 0,
+        1 => 1,
+        _ => fibo(n - 2) + fibo(n - 1),
+    }
 }
