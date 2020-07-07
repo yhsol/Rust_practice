@@ -1,0 +1,1 @@
+C:\Users\user\develop\Rust\rustprojects\rust-adder\target\debug\common-f6b5354b777d242e.exe: C:\Users\user\develop\Rust\rustprojects\rust-adder\src\lib.rs C:\Users\user\develop\Rust\rustprojects\rust-adder\tests\common.rs
