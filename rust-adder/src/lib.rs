@@ -77,6 +77,7 @@
 //     }
 // }
 
+<<<<<<< HEAD
 // #[test]
 // fn it_works() {
 //     assert_eq!(2 + 2, 4)
@@ -112,4 +113,15 @@ mod tests {
     fn internal() {
         assert_eq!(4, internal_adder(2, 2))
     }
+=======
+#[test]
+fn it_works() {
+    assert_eq!(2 + 2, 4)
+}
+
+#[test]
+#[ignore]
+fn expensive_test() {
+    // unimplemented!();
+>>>>>>> 236e6daf89c7b56d34ea5bf452dbb1bdaacba713
 }
