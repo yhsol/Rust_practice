@@ -1,1 +1,0 @@
-C:\Users\user\rustprojects\communicator\target\debug\libcoummunicator.rlib: C:\Users\user\rustprojects\communicator\src\client.rs C:\Users\user\rustprojects\communicator\src\lib.rs C:\Users\user\rustprojects\communicator\src\network\mod.rs C:\Users\user\rustprojects\communicator\src\network\server.rs
