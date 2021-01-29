@@ -1,5 +1,5 @@
-C:\Users\user\develop\Rust\rustprojects\projects\guessing_game\target\debug\deps\guessing_game.exe: src\main.rs
+/Users/yanghansol/Documents/yhsol/rust/rustprojects/projects/guessing_game/target/debug/deps/guessing_game: src/main.rs
 
-C:\Users\user\develop\Rust\rustprojects\projects\guessing_game\target\debug\deps\guessing_game.d: src\main.rs
+/Users/yanghansol/Documents/yhsol/rust/rustprojects/projects/guessing_game/target/debug/deps/guessing_game.d: src/main.rs
 
-src\main.rs:
+src/main.rs:
