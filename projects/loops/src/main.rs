@@ -1,6 +1,7 @@
 fn main() {
     // loop_fn();
-    returning_values_from_loops();
+    // returning_values_from_loops();
+    while_loops();
 }
 
 fn loop_fn() {
@@ -21,4 +22,16 @@ fn returning_values_from_loops() {
     };
 
     println!("Ther result is {}", result);
+}
+
+fn while_loops() {
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{}!", number);
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
 }
