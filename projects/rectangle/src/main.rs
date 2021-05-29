@@ -1,5 +1,5 @@
 fn main() {
-    calc_struct()
+    calc_struct_2()
 }
 
 fn calc() {
@@ -48,4 +48,19 @@ fn calc_struct() {
 
 fn area_struct(rectangle: &Rectangle) -> u32 {
     rectangle.length * rectangle.width
+}
+
+#[derive(Debug)]
+struct Rectangle2 {
+    length: u32,
+    width: u32,
+}
+
+fn calc_struct_2() {
+    let rect1 = Rectangle2 {
+        length: 50,
+        width: 30,
+    };
+
+    println!("rect1 is {:#?}", rect1);
 }
