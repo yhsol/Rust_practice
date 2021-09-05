@@ -105,3 +105,11 @@ fn main() {
     let yellow = Yellow;
     let green = TrafficLight::Green;
 }
+
+fn vectorfn() {
+    let v1: Vec<i32> = Vec::new();
+    let mut v2 = vec![];
+    v2.push(1);
+    let mut v3 = Vec::new();
+    v3.push(5)
+}
