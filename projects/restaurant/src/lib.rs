@@ -113,3 +113,17 @@ fn vectorfn() {
     let mut v3 = Vec::new();
     v3.push(5)
 }
+
+fn store_multiple_types() {
+    enum SpreadsheetCell {
+        Int(i32),
+        Float(f64),
+        Text(String),
+    }
+
+    let row = vec![
+        SpreadsheetCell::Int(3),
+        SpreadsheetCell::Text(String::from("blue")),
+        SpreadsheetCell::Float(10.12),
+    ];
+}
