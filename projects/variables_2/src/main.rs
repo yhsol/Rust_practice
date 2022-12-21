@@ -15,9 +15,9 @@ fn shadow() {
     println!("The value of spaces: {}", spaces);
 
     // mut
-    let spaces_mut = "    ";
-    spaces_mut = spaces_mut.len();
-    println!("The value of spaces_mut: {}", spaces_mut);
+    // let spaces_mut = "    ";
+    // spaces_mut = spaces_mut.len();
+    // println!("The value of spaces_mut: {}", spaces_mut);
 }
 
 fn main() {
@@ -32,6 +32,8 @@ fn main() {
     // println!("The value of x is mutable: {}", x);
     // x = 6;
     // println!("The value of x is mutable: {}", x);
+
+    println!("The value of MAX_POINTS: {}", MAX_POINTS);
 
     shadow();
 }
